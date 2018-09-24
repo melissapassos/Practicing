@@ -10,7 +10,7 @@ public class Principal {
 		int i;
 		double soma=0 , media=0;
 		
-		Aluno [] alunos = new Aluno[2];
+		Aluno [] alunos = new Aluno[10];
 		Scanner ReceberNome = new Scanner(System.in);
 		Scanner ReceberIdade = new Scanner(System.in);
 		Scanner ReceberNota = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class Principal {
 		
 		for (i=0; i<alunos.length; i++) {
 			if (alunos[i].getNota()>media) {
-				System.out.println("\nO aluno " + alunos[i].getNome() + "tem nota maior que a média da sala.");
+				System.out.println("\nO aluno " + alunos[i].getNome() + " tem nota maior que a média da sala.");
 			}
 		}
 			
