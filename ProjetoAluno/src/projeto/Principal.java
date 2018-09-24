@@ -46,7 +46,7 @@ public class Principal {
 		
 		for (i=0; i<alunos.length; i++) {
 			if (alunos[i].getNota()>media) {
-				System.out.println("\nO aluno " + alunos[i].getNome() + " tem nota maior que a média da sala.");
+				System.out.println("\nO aluno " + alunos[i].getNome() + " com idade de " + alunos[i].getIdade() + " e nota "+ alunos[i].getNota() + " tem nota maior que a média da sala.");
 			}
 		}
 			
